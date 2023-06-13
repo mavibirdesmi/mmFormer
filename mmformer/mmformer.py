@@ -3,7 +3,7 @@ import torch.nn.functional as F
 from torch.nn.init import xavier_uniform_, constant_
 import torch
 import math
-from layers import general_conv3d_prenorm, fusion_prenorm
+from .layers import general_conv3d_prenorm, fusion_prenorm
 
 basic_dims = 8
 transformer_basic_dims = 512
